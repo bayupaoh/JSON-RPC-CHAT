@@ -10,7 +10,10 @@
 <div class="chat-box-left">tes lagi mas</div><div class="chat-box-name-left"><img src="assets/img/user.png" alt="bootstrap Chat box user image" class="img-circle" /> - Bayu</div><hr class="hr-clas" />
 <div class="chat-box-left">coba again</div><div class="chat-box-name-left"><img src="assets/img/user.png" alt="bootstrap Chat box user image" class="img-circle" /> - Bayu</div><hr class="hr-clas" />
 <div class="chat-box-right">test</div><div class="chat-box-name-right"><img src="assets/img/user.png" alt="bootstrap Chat box user image" class="img-circle" /> - </div><hr class="hr-clas" />
+<<<<<<< HEAD
 <div class="chat-box-right">haiii</div><div class="chat-box-name-right"><img src="assets/img/user.png" alt="bootstrap Chat box user image" class="img-circle" /> - </div><hr class="hr-clas" />
 <div class="chat-box-right">haiiii</div><div class="chat-box-name-right"><img src="assets/img/user.png" alt="bootstrap Chat box user image" class="img-circle" /> - </div><hr class="hr-clas" />
 <div class="chat-box-right">test</div><div class="chat-box-name-right"><img src="assets/img/user.png" alt="bootstrap Chat box user image" class="img-circle" /> - </div><hr class="hr-clas" />
 <div class="chat-box-right">i am hana</div><div class="chat-box-name-right"><img src="assets/img/user.png" alt="bootstrap Chat box user image" class="img-circle" /> - 7989</div><hr class="hr-clas" />
+=======
+>>>>>>> db8bd52c7fc93b7b9e2d7f8de22efac56cfff3f2

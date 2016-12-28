@@ -115,8 +115,13 @@ function caesarShift(text, shift) {
     }
     
     function logout(){
+<<<<<<< HEAD
         
         //document.location.href = 'index.php';
+=======
+        <?php session_destroy(); ?>
+        document.location.href = 'index.php';
+>>>>>>> db8bd52c7fc93b7b9e2d7f8de22efac56cfff3f2
     }
 
 </script>
@@ -191,7 +196,13 @@ function caesarShift(text, shift) {
         <h4 class="modal-title">Nama User</h4>
       </div>
       <div class="modal-body">
+<<<<<<< HEAD
            <input type="text" name="nama" placeholder="Your name.." id="nama" class="form-control">
+=======
+    
+           <input type="text" name="nama" placeholder="Your name.." id="nama" class="form-control">
+       
+>>>>>>> db8bd52c7fc93b7b9e2d7f8de22efac56cfff3f2
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
