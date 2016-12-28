@@ -63,6 +63,8 @@ border-color: rgb(53, 126, 189);
 	textElem.value = caesarShift(textElem.value, shift);
 }
 
+
+
 function caesarShift(text, shift) {
 	var result = "";
 	for (var i = 0; i < text.length; i++) {
@@ -109,7 +111,7 @@ function caesarShift(text, shift) {
                         if ($action == 'create') {
 							$nama = $myExample->nama('name');
 							$pesan = "".$nama. "".$_POST['pesan'];
-							$myExample->writeSomething($pesan);
+							$myExample->writeSomething($nama,$pesan);
 							$action= null;
 						} 
 						
