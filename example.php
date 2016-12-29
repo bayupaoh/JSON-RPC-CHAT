@@ -66,7 +66,7 @@ class example {
 		*/
 		
 		if ($tmpFile = fopen ('state.txt','a')) {
-			fwrite($tmpFile,date('r').' - '.$state."\n");
+			fwrite($tmpFile,date('r').' - '.$state."\n");			
 			fclose($tmpFile);
 			return true;
 		} else {
@@ -84,13 +84,14 @@ class example {
 	 * @param string $something
 	 * @return boolean
 	 */
-	public function writeSomething($something) {
+	public function writeSomething($nama,$something) {
 		/*
 		You can have a very complex code here
 		*/
 		
 		if ($tmpFile = fopen ('storeData.txt','a')) {
-			fwrite($tmpFile,date('r').' - '.$something."\n");
+			//fwrite($tmpFile,date('r').' - '.$something."\n");
+			fwrite($tmpFile,'<div class="chat-box-left">'.$something.'</div><div class="chat-box-name-left"><img src="assets/img/user.png" alt="bootstrap Chat box user image" class="img-circle" /> - '.$nama.'</div><hr class="hr-clas" />'."\n");			
 			fclose($tmpFile);
 			return true;
 		} else {
