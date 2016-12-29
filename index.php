@@ -67,8 +67,30 @@
                     xhttp.open("GET", "storeData.txt", true);
                     xhttp.send();
                     }
+<<<<<<< HEAD
                     setInterval(loadDoc, 1000);
                            
+=======
+                    setInterval(loadDoc, 500);
+                    
+            function encrypt() {
+        
+        var decrypted = CryptoJS.AES.decrypt(encrypted, "Secret Passphrase");
+        document.getElementById("pesan").innerHTML = decrypted;
+        alert(encryptmyInputed);
+    }       
+    }
+    function getName(){
+        // document.getElementById('setNama').style='display:block';
+        $('#setNama').modal('show')
+    }
+
+    function doCrypt(isDecrypt) {
+    var shiftText = 2;
+    if (!/^-?\d+$/.test(shiftText)) {
+        alert("Shift is not an integer");
+        return;
+>>>>>>> e76bdc6fb3db5cf59cb9b16f8dc534435ce8b337
     }
     function getName(){
         // document.getElementById('setNama').style='display:block';
@@ -80,14 +102,32 @@
         
         //document.location.href = 'index.php';
     }
+<<<<<<< HEAD
+=======
+    
+    function logout(){
+<<<<<<< HEAD
+        
+        //document.location.href = 'index.php';
+=======
+        <?php session_destroy(); ?>
+        document.location.href = 'index.php';
+>>>>>>> db8bd52c7fc93b7b9e2d7f8de22efac56cfff3f2
+    }
+>>>>>>> e76bdc6fb3db5cf59cb9b16f8dc534435ce8b337
 
 </script>
 
 </head>
 <body >
+<<<<<<< HEAD
     <audio id="myAudio">
       <source src="assets/sound/notif.mp3" type="audio/mpeg">
     </audio>
+=======
+
+
+>>>>>>> e76bdc6fb3db5cf59cb9b16f8dc534435ce8b337
     <div class="container">
         <div class="row pad-top pad-bottom">
             <div class=" col-lg-6 col-md-6 col-sm-6">
@@ -152,7 +192,17 @@
         <h4 class="modal-title">Nama User</h4>
       </div>
       <div class="modal-body">
+<<<<<<< HEAD
            <input type="text" name="nama" placeholder="Your name.." id="nama" class="form-control">
+=======
+<<<<<<< HEAD
+           <input type="text" name="nama" placeholder="Your name.." id="nama" class="form-control">
+=======
+    
+           <input type="text" name="nama" placeholder="Your name.." id="nama" class="form-control">
+       
+>>>>>>> db8bd52c7fc93b7b9e2d7f8de22efac56cfff3f2
+>>>>>>> e76bdc6fb3db5cf59cb9b16f8dc534435ce8b337
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
