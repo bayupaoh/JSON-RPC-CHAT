@@ -120,6 +120,7 @@ class jsonRPCClient {
 						'id' => $currentId
 						);
 		$request = json_encode($request);
+		echo "<script>console.log(".$request.");</script>";
 		$this->debug && $this->debug.='***** Request *****'."\n".$request."\n".'***** End Of request *****'."\n\n";
 		
 		// performs the HTTP POST
@@ -136,6 +137,7 @@ class jsonRPCClient {
 			}
 			$this->debug && $this->debug.='***** Server response *****'."\n".$response.'***** End of server response *****'."\n";
 			$response = json_decode($response,true);
+			echo "<script>console.log(".$response.");</script>";			
 		} else {
 			throw new Exception('Unable to connect to '.$this->url);
 		}
