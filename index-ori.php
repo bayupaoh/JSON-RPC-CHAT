@@ -1,6 +1,6 @@
 <?php
 require_once 'jsonRPCClient.php';
-$myExample = new jsonRPCClient('http://192.168.10.110/sister/server.php');
+    $myExample = new jsonRPCClient('http://24.10.13.8/sister/server.php');
 ?> 
 
 <!DOCTYPE html>

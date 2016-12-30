@@ -1,8 +1,8 @@
 ﻿<?php
-    session_start();
     require_once 'jsonRPCClient.php';
     $myExample = new jsonRPCClient('http://24.10.13.8/sister/server.php');
-
+    
+    session_start();
     if(isset($_POST['user'])){
         $_SESSION['nama'] = $_POST['user'];
        
@@ -26,13 +26,8 @@
     <link href="assets/css/font-awesome.css" rel="stylesheet" />
     <!-- CUSTOM STYLE CSS -->
     <link href="assets/css/style.css" rel="stylesheet" />
-    <!-- Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <script src="rabbit.js"></script>
-    
+        <script src="jquery-1.11.1.min.js"></script>
+    <script src="bootstrap.min.js"></script>
     <script>
     function setName(){
         var nama = document.getElementById('nama').value;
@@ -52,6 +47,7 @@
     });
         
     }
+/*
     window.onload = function() {
        <?php if(!isset($_SESSION['nama'])){?>
             getName(); 
@@ -59,35 +55,21 @@
         function loadDoc() {
             var xhttp = new XMLHttpRequest();
             xhttp.onreadystatechange = function() {
-                if (xhttp.readyState == 4 && xhttp.status == 200) {
-                    
+                
+                if (xhttp.readyState == 4 && xhttp.status == 200) {    
                     document.getElementById("tpesan").innerHTML = xhttp.responseText;
-                    }
-                    };
-                    xhttp.open("GET", "storeData.txt", true);
-                    xhttp.send();
-                    }
-
-                    setInterval(loadDoc, 500);
-                    
-            function encrypt() {
-        
-        var decrypted = CryptoJS.AES.decrypt(encrypted, "Secret Passphrase");
-        document.getElementById("pesan").innerHTML = decrypted;
-        alert(encryptmyInputed);
-    }       
-    }
+                }
+            };
+            xhttp.open("GET", "storeData.txt", true);
+            xhttp.send();
+        }
+        setInterval(loadDoc, 1000);       
+    }*/
     function getName(){
         // document.getElementById('setNama').style='display:block';
         $('#setNama').modal('show')
     }
 
-    function doCrypt(isDecrypt) {
-    var shiftText = 2;
-    if (!/^-?\d+$/.test(shiftText)) {
-        alert("Shift is not an integer");
-        return;
-    }
     function getName(){
         // document.getElementById('setNama').style='display:block';
         $('#setNama').modal('show')
@@ -99,6 +81,24 @@
         //document.location.href = 'index.php';
     }
 
+window.onload = function() {
+        <?php if(!isset($_SESSION['nama'])){?>
+            getName(); 
+        <?php } ?>
+        function loadDoc() {
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function() {
+                if (xhttp.readyState == 4 && xhttp.status == 200) {
+                    document.getElementById("tpesan").innerHTML = xhttp.responseText;
+                    }
+                    };
+                    xhttp.open("GET", "storeData.txt", true);
+                    xhttp.send();
+                    }
+                    setInterval(loadDoc, 1000);
+                    
+    }
+    
 </script>
 
 </head>
@@ -109,20 +109,8 @@
                 <div class="chat-box-div">
                     <div class="chat-box-head">
                         SISTER CHAT HISTORY
-                            <div class="btn-group pull-right">
-                                <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-                                    <span class="fa fa-cogs"></span>
-                                    <span class="sr-only">Toggle Dropdown</span>
-                                </button>
-                                <ul class="dropdown-menu" role="menu">
-                                    <li><a href="#" onclick="logout()"><span class="fa fa-circle-o-notch"></span>&nbsp;Logout</a></li>
-                                </ul>
-                            </div>
                     </div>
-                    <div class="panel-body chat-box-main" id="tpesan" name="tpesan">
-                               <?php 
-                               //$myfile = fopen("storeData.txt", "r") or die("Unable to open file!"); print fread($myfile,filesize("storeData.txt")); fclose($myfile); ?> 
-                            
+                    <div class="panel-body chat-box-main" id="tpesan" name="tpesan">    
                     </div>
                     <div class="chat-box-footer">
                         <?php
@@ -151,9 +139,7 @@
                             </div>
                         </form>
                     </div>
-
                 </div>
-
             </div>
             
             

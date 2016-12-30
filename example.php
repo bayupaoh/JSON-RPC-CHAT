@@ -91,7 +91,8 @@ class example {
 		
 		if ($tmpFile = fopen ('storeData.txt','a')) {
 			//fwrite($tmpFile,date('r').' - '.$something."\n");
-			fwrite($tmpFile,'<div class="chat-box-left">'.$something.'</div><div class="chat-box-name-left"><img src="assets/img/user.png" alt="bootstrap Chat box user image" class="img-circle" /> - '.$nama.'</div><hr class="hr-clas" />'."\n");			
+			$chat = '<div class="chat-box-left">'.$something.'</div><div class="chat-box-name-left"><img src="assets/img/user.png" alt="bootstrap Chat box user image" class="img-circle" /> - '.$nama.'</div><hr class="hr-clas" />'."\n";
+			fwrite($tmpFile,$chat);			
 			fclose($tmpFile);
 			return true;
 		} else {

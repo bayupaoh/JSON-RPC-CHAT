@@ -2,3 +2,44 @@
 <div class="chat-box-right">haiiii</div><div class="chat-box-name-right"><img src="assets/img/user.png" alt="bootstrap Chat box user image" class="img-circle" /> - </div><hr class="hr-clas" />
 <div class="chat-box-right">test</div><div class="chat-box-name-right"><img src="assets/img/user.png" alt="bootstrap Chat box user image" class="img-circle" /> - </div><hr class="hr-clas" />
 <div class="chat-box-right">i am hana</div><div class="chat-box-name-right"><img src="assets/img/user.png" alt="bootstrap Chat box user image" class="img-circle" /> - 7989</div><hr class="hr-clas" />
+<div class="chat-box-right">hhaha</div><div class="chat-box-name-right"><img src="assets/img/user.png" alt="bootstrap Chat box user image" class="img-circle" /> - </div><hr class="hr-clas" />
+<div class="chat-box-right">haiiiii</div><div class="chat-box-name-right"><img src="assets/img/user.png" alt="bootstrap Chat box user image" class="img-circle" /> - </div><hr class="hr-clas" />
+<div class="chat-box-right">hai</div><div class="chat-box-name-right"><img src="assets/img/user.png" alt="bootstrap Chat box user image" class="img-circle" /> - </div><hr class="hr-clas" />
+<div class="chat-box-right">makan bro</div><div class="chat-box-name-right"><img src="assets/img/user.png" alt="bootstrap Chat box user image" class="img-circle" /> - </div><hr class="hr-clas" />
+<div class="chat-box-left">test mala</div><div class="chat-box-name-left"><img src="assets/img/user.png" alt="bootstrap Chat box user image" class="img-circle" /> - </div><hr class="hr-clas" />
+<div class="chat-box-right">hai</div><div class="chat-box-name-right"><img src="assets/img/user.png" alt="bootstrap Chat box user image" class="img-circle" /> - </div><hr class="hr-clas" />
+<div class="chat-box-right">test</div><div class="chat-box-name-right"><img src="assets/img/user.png" alt="bootstrap Chat box user image" class="img-circle" /> - </div><hr class="hr-clas" />
+<div class="chat-box-right">test</div><div class="chat-box-name-right"><img src="assets/img/user.png" alt="bootstrap Chat box user image" class="img-circle" /> - </div><hr class="hr-clas" />
+<div class="chat-box-right">test</div><div class="chat-box-name-right"><img src="assets/img/user.png" alt="bootstrap Chat box user image" class="img-circle" /> - </div><hr class="hr-clas" />
+<div class="chat-box-right">yoo</div><div class="chat-box-name-right"><img src="assets/img/user.png" alt="bootstrap Chat box user image" class="img-circle" /> - </div><hr class="hr-clas" />
+<div class="chat-box-right">test</div><div class="chat-box-name-right"><img src="assets/img/user.png" alt="bootstrap Chat box user image" class="img-circle" /> - </div><hr class="hr-clas" />
+<div class="chat-box-left">tet</div><div class="chat-box-name-left"><img src="assets/img/user.png" alt="bootstrap Chat box user image" class="img-circle" /> - </div><hr class="hr-clas" />
+<div class="chat-box-right">hai</div><div class="chat-box-name-right"><img src="assets/img/user.png" alt="bootstrap Chat box user image" class="img-circle" /> - </div><hr class="hr-clas" />
+<div class="chat-box-right">test 9 malam</div><div class="chat-box-name-right"><img src="assets/img/user.png" alt="bootstrap Chat box user image" class="img-circle" /> - bayu</div><hr class="hr-clas" />
+<div class="chat-box-left">hai</div><div class="chat-box-name-left"><img src="assets/img/user.png" alt="bootstrap Chat box user image" class="img-circle" /> - andi</div><hr class="hr-clas" />
+<div class="chat-box-right">test</div><div class="chat-box-name-right"><img src="assets/img/user.png" alt="bootstrap Chat box user image" class="img-circle" /> - bayu</div><hr class="hr-clas" />
+<div class="chat-box-left">test</div><div class="chat-box-name-left"><img src="assets/img/user.png" alt="bootstrap Chat box user image" class="img-circle" /> - andi</div><hr class="hr-clas" />
+<div class="chat-box-left">malm</div><div class="chat-box-name-left"><img src="assets/img/user.png" alt="bootstrap Chat box user image" class="img-circle" /> - andi</div><hr class="hr-clas" />
+<div class="chat-box-right">test</div><div class="chat-box-name-right"><img src="assets/img/user.png" alt="bootstrap Chat box user image" class="img-circle" /> - bayu</div><hr class="hr-clas" />
+<div class="chat-box-right">woi</div><div class="chat-box-name-right"><img src="assets/img/user.png" alt="bootstrap Chat box user image" class="img-circle" /> - bayu</div><hr class="hr-clas" />
+<div class="chat-box-left">woooiiii</div><div class="chat-box-name-left"><img src="assets/img/user.png" alt="bootstrap Chat box user image" class="img-circle" /> - andi</div><hr class="hr-clas" />
+<div class="chat-box-left">testtttt</div><div class="chat-box-name-left"><img src="assets/img/user.png" alt="bootstrap Chat box user image" class="img-circle" /> - andi</div><hr class="hr-clas" />
+<div class="chat-box-left">testtt</div><div class="chat-box-name-left"><img src="assets/img/user.png" alt="bootstrap Chat box user image" class="img-circle" /> - andi</div><hr class="hr-clas" />
+<div class="chat-box-left">tesss</div><div class="chat-box-name-left"><img src="assets/img/user.png" alt="bootstrap Chat box user image" class="img-circle" /> - andi</div><hr class="hr-clas" />
+<div class="chat-box-right">test</div><div class="chat-box-name-right"><img src="assets/img/user.png" alt="bootstrap Chat box user image" class="img-circle" /> - bayu</div><hr class="hr-clas" />
+<div class="chat-box-left">testt</div><div class="chat-box-name-left"><img src="assets/img/user.png" alt="bootstrap Chat box user image" class="img-circle" /> - andi</div><hr class="hr-clas" />
+<div class="chat-box-left">tesssss</div><div class="chat-box-name-left"><img src="assets/img/user.png" alt="bootstrap Chat box user image" class="img-circle" /> - andi</div><hr class="hr-clas" />
+<div class="chat-box-right">tess</div><div class="chat-box-name-right"><img src="assets/img/user.png" alt="bootstrap Chat box user image" class="img-circle" /> - bayu</div><hr class="hr-clas" />
+<div class="chat-box-left">haiii</div><div class="chat-box-name-left"><img src="assets/img/user.png" alt="bootstrap Chat box user image" class="img-circle" /> - andi</div><hr class="hr-clas" />
+<div class="chat-box-left">testtt</div><div class="chat-box-name-left"><img src="assets/img/user.png" alt="bootstrap Chat box user image" class="img-circle" /> - andi</div><hr class="hr-clas" />
+<div class="chat-box-right">testtt</div><div class="chat-box-name-right"><img src="assets/img/user.png" alt="bootstrap Chat box user image" class="img-circle" /> - bayu</div><hr class="hr-clas" />
+<div class="chat-box-right">testtttttttttttttttttttt</div><div class="chat-box-name-right"><img src="assets/img/user.png" alt="bootstrap Chat box user image" class="img-circle" /> - bayu</div><hr class="hr-clas" />
+<div class="chat-box-left">haiiii</div><div class="chat-box-name-left"><img src="assets/img/user.png" alt="bootstrap Chat box user image" class="img-circle" /> - andi</div><hr class="hr-clas" />
+<div class="chat-box-left">testt</div><div class="chat-box-name-left"><img src="assets/img/user.png" alt="bootstrap Chat box user image" class="img-circle" /> - andi</div><hr class="hr-clas" />
+<div class="chat-box-right">testtt</div><div class="chat-box-name-right"><img src="assets/img/user.png" alt="bootstrap Chat box user image" class="img-circle" /> - bayu</div><hr class="hr-clas" />
+<div class="chat-box-left">hoii</div><div class="chat-box-name-left"><img src="assets/img/user.png" alt="bootstrap Chat box user image" class="img-circle" /> - andi</div><hr class="hr-clas" />
+<div class="chat-box-left">testttt</div><div class="chat-box-name-left"><img src="assets/img/user.png" alt="bootstrap Chat box user image" class="img-circle" /> - andi</div><hr class="hr-clas" />
+<div class="chat-box-right">haiii</div><div class="chat-box-name-right"><img src="assets/img/user.png" alt="bootstrap Chat box user image" class="img-circle" /> - bayu</div><hr class="hr-clas" />
+<div class="chat-box-right">haiiiii</div><div class="chat-box-name-right"><img src="assets/img/user.png" alt="bootstrap Chat box user image" class="img-circle" /> - bayu</div><hr class="hr-clas" />
+<div class="chat-box-right">testtt</div><div class="chat-box-name-right"><img src="assets/img/user.png" alt="bootstrap Chat box user image" class="img-circle" /> - andi</div><hr class="hr-clas" />
+<div class="chat-box-left">testtt</div><div class="chat-box-name-left"><img src="assets/img/user.png" alt="bootstrap Chat box user image" class="img-circle" /> - andi</div><hr class="hr-clas" />

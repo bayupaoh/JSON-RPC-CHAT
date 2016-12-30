@@ -1,26 +1,20 @@
 <?php
 /*
 					COPYRIGHT
-
 Copyright 2007 Sergio Vaccaro <sergio@inservibile.org>
-
 This file is part of JSON-RPC PHP.
-
 JSON-RPC PHP is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
 the Free Software Foundation; either version 2 of the License, or
 (at your option) any later version.
-
 JSON-RPC PHP is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 GNU General Public License for more details.
-
 You should have received a copy of the GNU General Public License
 along with JSON-RPC PHP; if not, write to the Free Software
 Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 */
-
 /**
  * The object of this class are generic jsonRPC 1.0 clients
  * http://json-rpc.org/wiki/specification
@@ -92,7 +86,8 @@ class jsonRPCClient {
 	 * @return array
 	 */
 	public function __call($method,$params) {
-		
+		error_reporting(E_ERROR | E_WARNING | E_PARSE | E_NOTICE);
+
 		// check
 		if (!is_scalar($method)) {
 			throw new Exception('Method name has no scalar value');
@@ -119,8 +114,9 @@ class jsonRPCClient {
 						'params' => $params,
 						'id' => $currentId
 						);
+
 		$request = json_encode($request);
-		echo "<script>console.log(".$request.");</script>";
+		echo '<script>console.log("request : '.$request.'");</script>';
 		$this->debug && $this->debug.='***** Request *****'."\n".$request."\n".'***** End Of request *****'."\n\n";
 		
 		// performs the HTTP POST
@@ -129,15 +125,18 @@ class jsonRPCClient {
 							'header'  => 'Content-type: application/json',
 							'content' => $request
 							));
+
 		$context  = stream_context_create($opts);
 		if ($fp = fopen($this->url, 'r', false, $context)) {
 			$response = '';
 			while($row = fgets($fp)) {
 				$response.= trim($row)."\n";
 			}
+
 			$this->debug && $this->debug.='***** Server response *****'."\n".$response.'***** End of server response *****'."\n";
+			echo '<script>console.log("response : '.$response.'");</script>';
 			$response = json_decode($response,true);
-			echo "<script>console.log(".$response.");</script>";			
+
 		} else {
 			throw new Exception('Unable to connect to '.$this->url);
 		}
